@@ -1,0 +1,91 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+.highlighted-plan .card-header {
+    border: 2px solid rgb(57, 144, 244) !important;
+    border-bottom: none !important;
+}
+
+.highlighted-plan .card-body {
+    border: 2px solid rgb(59, 146, 246) !important;
+}
+
+/* Container for the plans */
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Individual plan styles */
+.plan {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Slider styles */
+.slider-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+
+input[type="range"] {
+    width: 40%;
+}
+
+#slider-value {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.modal-title {
+    text-align: center;
+    /* margin: 2px auto; */
+    text-transform: capitalize;
+}
